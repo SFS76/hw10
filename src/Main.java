@@ -2,6 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-
+        String firstName= "Ivanov";
+        String middleName = "Ivan";
+        String lastName = "Ivanovich";
+        String fullName = String.join(" ", firstName, middleName, lastName);
+        System.out.printf("Ф. И. О. сотрудника —" + fullName);
     }
 }
